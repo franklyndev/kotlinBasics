@@ -1,6 +1,5 @@
 package com.example.activity
 
-
 fun main(){
     // we call the function
     makeCoffee()
@@ -21,5 +20,5 @@ fun makeCoffee(){
         println("Coffee with $sugarCount spoons of sugar for $name")
     }else{
         println("Coffee with $sugarCount spoon of sugar for $name")
-    }
+        }
 }
