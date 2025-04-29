@@ -6,7 +6,7 @@ fun main(){
     println("Enter another number: ")
     val num2 = readln().toInt()
     val myResult = divide(num1, num2)
-    println("The result of the  is division= $myResult")
+    println("The result of the division is = $myResult")
 
 }
 
@@ -15,7 +15,3 @@ fun divide(num1: Int, num2: Int): Double{
     return resultdivide
 }
 
-fun add(num1 : Int, num2 : Int): Int{
-    var result = num1 + num2
-    return result
-}
